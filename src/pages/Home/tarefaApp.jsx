@@ -27,6 +27,7 @@ export const TarefaApp = () => {
 
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(tasks));
+    alert(window.innerWidth);
   }, [tasks]);
 
   return (

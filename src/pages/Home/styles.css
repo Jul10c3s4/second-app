@@ -9,6 +9,7 @@
 }
 
 .container{
+  overflow: scroll;
   width: 60%;
   height: 80%;
   background-color: white;
@@ -77,4 +78,51 @@ input{
   align-items: center;
   width: 100%;
   overflow-y: scroll;
+}
+
+@media (max-width: 950px){
+  h1{
+    font-size: 30px;
+  }
+
+  .container{
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media (max-width: 600px){
+  h1{
+    font-size: 20px;
+  }
+  .buttonAdd{
+    font-size: 16px;
+    padding: 0.5rem 0;
+  }
+  img{
+    margin-left: 1rem;
+  }
+
+  input{
+    font-size: 16px;
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 300px){
+  h1{
+    font-size: 18px;
+  }
+  .buttonAdd{
+    font-size: 10px;
+    padding: 0.5rem 0;
+  }
+  img{
+    margin-left: 0.5rem;
+  }
+
+  input{
+    font-size: 10px;
+    padding: 0.5rem 0;
+  }
 }
