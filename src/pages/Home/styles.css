@@ -71,6 +71,7 @@ input{
 }
 
 .cards{
+  height: 50%;
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
